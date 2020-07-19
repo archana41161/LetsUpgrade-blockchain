@@ -1,0 +1,23 @@
+DAY1 ASSIGNMENT
+NAME:ARCHANA.S
+
+
+1.What is your understanding of blockchain?
+Blockchain is a systems which contains permenant database with effective security and no hacking and its verifiable.
+
+2.What is the core problem blockchain trying to solve ?
+ 1.Authencity 
+  2.Security 
+  3.Need third party trust
+
+3.What are the features which blockchain will give you?
+  Verifiable,Immutable,Tamperproof,etc 
+
+4.What does a blockchain contain?
+  Block,Transaction record,Previous block signature,etc
+
+5.How is the verifiability of blockchain is been attained?
+  Day1=no fingerprint+data=fingerprint 
+  Day2=Day1 fingerprint+data=day2 fingerprint
+  Day3=Day2 fingerprint+data=Day3 fingerprint 
+   concept of verifiability .If data is changed then the whole fingerprint,contents will be changed. 
