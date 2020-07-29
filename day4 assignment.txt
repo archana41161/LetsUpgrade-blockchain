@@ -1,0 +1,35 @@
+pragma solidity >=0.4.17 < 0.7.0;
+
+contract reportcard{
+    string name;
+    uint rollno;
+    string batch;
+    uint marks1;
+    uint marks2;
+    uint marks3;
+    uint marks4;
+    uint results;
+    string status;
+
+function record(string name1,unit rollno1,string batch1,unit marksq1,unit marksq2,unit marksq3,unit marksq4)public{
+      name=name1;
+      rollno=rollno1;
+      batch=batch1;
+      marks1=marksq1;
+      marks2=marksq2;
+      marks3=marksq3;
+      marks4=marksq4;
+      
+     result =marks1+marks2+marks3+marks4;
+     result=result *100/400;
+  if (result <40)
+  status ="fail";
+  else if(result >=40);
+}
+
+function getdetails()public view returns (string,uint,string,unit,uint,unit,unit,string){
+  return (name,rollno,batch,mars1,marks2,marks3,marks4,result,status);
+}
+}
+
+      
