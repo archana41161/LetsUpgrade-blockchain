@@ -1,0 +1,27 @@
+pragma solidity >=0.4.17 < 0.7.0;
+
+contract train tickets{
+    string name;
+    unit dateofbirth;
+    string arrivelocation;
+    string deparaturelocation;
+    uint reservationseats ;
+    uint nonreservationseats;
+    uint ticketamount;
+
+function train tickets(string newname,unit newdateofbirth, string newarrivelocation,string newdeparaturelocation,unit newreservationseats,unit newnonreservationseats,unit new ticketamount)public{
+
+name=newname;
+dateofbirth=newdateofbirth;
+arrivelocation=newarrivelocation;
+deparaturelocation=newdeparaturelocation;
+reservationseats=newreservationseats;
+nonreservationseats=newnonreservationseats;
+ticketamount=newticketamount;
+}
+fuction getdetails()public view returns (string,uint,string,string,uint,uint,unit){
+return (name,dateofbirth,arrivelocation,deparaturelocation,reservationseats,nonreservationseats,ticketamount);
+}
+}
+
+ropsten link::https://ropsten.etherscan.io/tx/0x080f33d1027324c58dc6420d55503ba95af77a8cd22a4194ddea4911d7de9b94
