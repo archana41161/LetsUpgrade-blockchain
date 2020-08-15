@@ -1,0 +1,26 @@
+
+pragma solidity >=0.4.17 < 0.7.0;
+
+contract employees record{90
+    string name;
+    uint dateofbirth;
+    uint arrivingtime;
+    uint deparaturetime;
+    uint salary;
+    string employeeaddress;
+
+function employees record(string newname,unit dateofbirth, unit newarrivingtime,unit newdeparaturetime,unit newsalary,string employeeaddress)public{
+
+name=newname;
+dateofbirth=newdateofbirth;
+arrivingtime=newarrivingtime;
+deparaturetime=newdeparaturetime;
+salary=newsalary;
+employeeaddress=newemployeeaddress;
+}
+fuction getdetails()public view returns (string,uint,uint,uint,uint,string){
+return (name,dateofbirth,arrivingtime,deparaturetime,salary,employeeaddress);
+}
+}
+
+ropsten link::https://ropsten.etherscan.io/tx/0x90a44cbb976e51d6f80094ed6c7583fc3edf666d8db6b68da390a98f06dd4c0d
